@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "Rubik";
+  src: url("/assets/Rubik-VariableFont_wght.ttf");
+}
+
+:root {
+  --header-color: #7d614a;
+  --header-color: #584434;
+  --header-color-alt: rgb(128, 126, 64);
+  --header-height: 90px;
+  --text-color: #352927;
+  --text-size: 16pt;
+  --secondary-color: #555;
+  --tertiary-color: #fafafa;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Rubik", Helvetica, sans-serif;
+  color: var(--text-color);
+  background: var(--tertiary-color);
+}
+
+article {
+  margin: auto;
+  padding: 30px;
+  max-width: 77%;
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Rubik", sans-serif;
+  color: var(--header-color);
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 36pt;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 28pt;
+}
+
+h4 {
+  font-size: 20pt;
+}
+
+p,
+label,
+a {
+  font-size: var(--text-size);
+  padding-left: 0.2em;
+  color: var(--text-color);
+  line-height: 1.5em;
+}
+
+a {
+  padding-left: 0;
+}
+
+a:hover {
+  color: #666;
+}
+
+.product-list {
+  display: flex;
+  padding: 30px;
+  flex-direction: column;
+}
+
+.gmaps-frame {
+  border: 1px solid #ccc;
+  height: 80%;
+  width: 85%;
+}
+
+site-footer {
+  justify-self: flex-end;
+}
+
+/* HEADER */
+
+header {
+  margin: 0;
+  padding: 1em;
+  position: relative;
+  height: auto;
+  z-index: 2;
+  border-bottom: 1px solid var(--secondary-color);
+  background: rgba(255, 255, 255, 0.8);
+  box-sizing: border-box;
+}
+
+header .top-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  padding: 0;
+  margin: 0 auto;
+
+  max-width: 1264px;
+  height: auto;
+}
+
+.topnav-logo {
+  padding-right: 25px;
+  display: inline-block;
+  width: 200px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.topnav-logo img {
+  width: 170px;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
+button-mobilemenu {
+  display: none;
+}
+
+header a {
+  color: var(--header-color);
+  font-family: "Rubik", sans-serif;
+}
+
+header a:hover {
+  color: #666;
+}
+
+header a.homeA {
+  color: white;
+}
+
+header > * {
+  margin: 15px 30px;
+}
+
+header .desktop-nav {
+  display: flex;
+  justify-content: right;
+  flex-wrap: wrap;
+  max-height: 85px;
+}
+
+header .desktop-nav > * {
+  padding: 10px;
+}
+
+header .desktop-nav a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14pt;
+}
+
+.desktop-nav .langselect::before {
+  content: '∙';
+}
+
+.desktop-nav .langselect > a {
+  margin-left: 1em;
+}
+
+/* PAGE: HOME */

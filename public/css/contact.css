@@ -1,0 +1,94 @@
+/* CONTACT FORM */
+/* 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+} */
+
+.food-art > div:nth-child(3) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.food-art > div:nth-child(3) > * {
+  margin: 0 1em;
+}
+
+.contact-form label {
+  margin-bottom: 5px;
+  display: block;
+  width: 100%;
+}
+
+.contact-form input, textarea {
+  margin-bottom: 15px;
+}
+
+input, textarea {
+  border: 1px solid var(--header-color);
+  padding: 15px;
+  font: var(--text-size), inherit;
+  box-shadow: inset 0 1px 4px #ccc;
+  width: 100%;
+}
+
+input[name = "contact-message"] {
+  display: flex;
+  flex-direction: column;
+  min-width: 100px;
+  min-height: 200px;
+}
+
+input[type = "submit"] {
+  display: inline-block;
+  max-width: 150px;
+  height: 40px;
+  padding: 5px;
+  background: none;
+  font-size: 16pt;
+  font-weight: lighter;
+  box-shadow: 0 1px 4px #ccc;
+}
+
+input[type = "submit"]:active {
+  background: rgb(157, 121, 91);
+  box-shadow: none;
+}
+
+/* MSG INFO */
+
+.msginfo {
+  padding: 10px;
+  margin-left: 10px;
+  width: auto;
+  display: none;
+}
+
+.active {
+  display: inline-block;
+  color: var(--text-color);
+}
+
+.success {
+  color: green;
+}
+
+.fail {
+  color: red;
+}
+
+@media (max-width: 1100px) {
+  .food-art > div:nth-child(3) {
+    display: initial;
+  }
+  
+  .food-art > div:nth-child(3) > * {
+    margin: initial;
+  }
+
+  .gmaps-frame {
+    margin-top: 2rem!important;
+    height: 10rem;
+  }
+}
