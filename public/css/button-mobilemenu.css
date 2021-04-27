@@ -1,0 +1,26 @@
+img {
+  height: 50px;
+  width: auto;
+  cursor: pointer;
+  position: relative;
+  z-index: 4;
+}
+
+.ham-button {
+  position: relative;
+  background-image: url(./build/assets/menu-outline.svg);
+  height: 50px;
+  width: 50px;
+  z-index: 4;
+  -webkit-transform: translateZ(1px);
+}
+
+.ham-open {
+  position: fixed;
+  top: 18px;
+  right:4.8%;
+  z-index: 4;
+  background-image: url(./build/assets/close-outline.svg);
+  height: 54px;
+  width: 54px;
+}

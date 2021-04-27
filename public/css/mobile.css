@@ -1,0 +1,69 @@
+/* MOBILE NAV */
+
+.mobilemenu {
+  display: none;
+}
+
+.mobilemenu a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 0.4em;
+}
+
+#menu-button {
+  display: none;
+}
+
+.mobile-nav {
+  margin: 0;
+}
+
+.mobilemenu > .langselect {
+  border-bottom: 1px solid #ddd;
+}
+
+.langselect > a {
+  display: inline-block;
+}
+
+.isopen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 710px) {
+  article {
+    max-width: 100%;
+    padding-top: 0;
+  }
+
+  .gmaps-frame {
+    width: 300px;
+  }
+
+  /* HEADER */
+
+  header .desktop-nav {
+    display: none;
+  }
+
+  .topnav-logo img {
+    width: 200px;
+  }
+
+  .mobile-nav {
+    display: block;
+    margin: 0;
+  }
+
+  #menu-button {
+    background: url("/assets/mobile/menu-outline.svg");
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+  }
+}

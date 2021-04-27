@@ -1,5 +1,23 @@
 {% extends 'base.html.twig' %}
 
+{% block head %}
+    <link rel="stylesheet" href="css/home.css">
+    <title>Sativion</title>
+{% endblock %}
+
 {% block content %}
-    <h1>Hello!</h1>
-{% endblock %}q
+    <div class="home-container">
+        <div class="banner">
+            <div class="banner mask">
+            </div>
+            <h3>content.banner1</h3>
+            <h3>content.banner2</h3>
+        </div>
+        <article class="home-art" lang="hu">
+            <h4>content.motivation</h4>
+            <div class="home-art product-list">
+                products
+            </div>
+        </article>
+    </div>
+{% endblock %}
