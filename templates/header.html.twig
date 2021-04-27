@@ -1,0 +1,35 @@
+<header>
+    <div class="top-nav">
+        <h1 class="topnav-logo">
+            <a href="/">
+                <img src="{{ asset('assets/logo.svg') }}" alt="Sativion logo">
+            </a>
+        </h1>
+        <nav class="desktop-nav">
+            <a href="">materials</a>
+            <a href="">food</a>
+            <a href="">health</a>
+            <a href="">contact</a>
+            <a href="">partner</a>
+            <span class="langselect">
+                <a href="">HU</a>
+                <a href="">EN</a>
+            </span>
+        </nav>
+        <span id="menu-button"></span>
+    </div>
+    <nav class="mobile-nav">
+        <div class="mobilemenu">
+            <span class="langselect">
+                <a href="">HU</a>
+                <a href="">EN</a>
+            </span>
+            <a href="">materials</a>
+            <a href="">food</a>
+            <a href="">health</a>
+            <a href="">contact</a>
+            <a href="">partner</a>
+        </div>
+    </nav>
+    <script src="{{ asset('js/mobile.js') }}"></script>
+</header>
