@@ -1,3 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\Router::index
 index:
-    path: /
-    controller: App\Controller\Router::index
+    resource: "../src/Controller/Router.php"
+    prefix:   /
+    type:     annotation
