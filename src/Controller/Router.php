@@ -10,4 +10,9 @@ class Router extends AbstractController {
     public function index(): Response {
         return $this->render('home.html.twig');
     }
+
+    #[Route('/contact')]
+    public function contact(): Response {
+        return $this->render('contact.html.twig');
+    }
 }

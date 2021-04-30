@@ -1,0 +1,35 @@
+nav:
+  materials: "Alapanyagok"
+  food: "Élelmiszer"
+  health: "Egészség"
+  contact: "Kapcsolat"
+  partner: "Legyél a partnerünk"
+global:
+  empty: "A terméklista feltöltés alatt áll. Kérjük nézz vissza később."
+form:
+  name: "Név"
+  email: "E-mail cím"
+  message: "Üzenet"
+  send: "Küldés"
+  info: "Üzenet küldése"
+  success: "Üzenet küldése sikeres!"
+  fail: "Üzenet küldése sikertelen. Kérjük próbáld újra."
+  obligatory: "Kérjük tölts ki minden kötelező mezőt!"
+  toosoon: "You're doing that too soon."
+home:
+  banner1: "A kender ipari felhasználásának módja szinte határtalan."
+  banner2: "Fedezd fel nálunk\na benne rejlő lehetőségeket!"
+  motivation: "Hisszük, hogy a kender széles felhasználási területeinek köszönhetően hozzájárul egy fenntarthatóbb jövőhöz és a teljesebb élethez.\n\nTekintsd meg, hogy a Sativion milyen kínálattal segíti hozzá ehhez a célhoz partnereit:"
+  products:
+    raw:
+      title: "Alapanyagok"
+      desc: "Kiváló minőségű élelmiszer és extraktum alapanyagok kereskedelme."
+    food:
+      title: "Élelmiszer"
+      desc: "Új típusú, kenderalapú élelmiszerek gyártása és forgalmazása."
+    health:
+      title: "Egészség"
+      desc: "Gyógyhatású készítmények hazai és kizárólagos külföldi forgalmazása."
+    partner:
+      title: "Legyél a partnerünk"
+      desc: "Beszállítókat és forgalmazókat is keresünk."

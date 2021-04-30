@@ -10,13 +10,32 @@
         <div class="banner">
             <div class="banner mask">
             </div>
-            <h3>content.banner1</h3>
-            <h3>content.banner2</h3>
+            <h3>{{ 'home.banner1'|trans }}</h3>
+            <h3>{{ 'home.banner2'|trans|nl2br }}</h3>
         </div>
         <article class="home-art" lang="hu">
-            <h4>content.motivation</h4>
+            <h4>{{ 'home.motivation'|trans|nl2br }}</h4>
             <div class="home-art product-list">
-                products
+                <span>
+                    <img src="{{ asset('assets/home/alap-icon.svg') }}" alt="">
+                    <a href=""><h3>{{ 'home.products.raw.title'|trans }}</h3></a>
+                    <p>{{ 'home.products.raw.desc'|trans }}</p>
+                </span>
+                <span>
+                    <img src="{{ asset('assets/home/food-icon.svg') }}" alt="">
+                    <a href=""><h3>{{ 'home.products.food.title'|trans }}</h3></a>
+                    <p>{{ 'home.products.food.desc'|trans }}</p>
+                </span>
+                <span>
+                    <img src="{{ asset('assets/home/gyogy-icon.svg') }}" alt="">
+                    <a href=""><h3>{{ 'home.products.health.title'|trans }}</h3></a>
+                    <p>{{ 'home.products.health.desc'|trans }}</p>
+                </span>
+                <span>
+                    <img src="{{ asset('assets/home/partner-icon.svg') }}" alt="">
+                    <a href=""><h3>{{ 'home.products.partner.title'|trans }}</h3></a>
+                    <p>{{ 'home.products.partner.desc'|trans }}</p>
+                </span>
             </div>
         </article>
     </div>

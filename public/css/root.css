@@ -104,14 +104,17 @@ header .top-nav {
   margin: 0 auto;
 
   max-width: 1264px;
-  height: auto;
+  min-height: 4rem;
 }
 
 .topnav-logo {
-  padding-right: 25px;
   display: inline-block;
-  width: 200px;
   flex-direction: column;
+
+  padding-right: 25px;
+  margin: 0;
+
+  width: 200px;
   align-items: center;
 }
 
@@ -124,7 +127,7 @@ header .top-nav {
 .topnav-logo img {
   width: 170px;
   height: auto;
-  margin-bottom: 0.5rem;
+  margin-top: 0.2rem;
 }
 
 button-mobilemenu {
