@@ -12,8 +12,8 @@
             <a href="{{ url('contact') }}">{{ 'nav.contact'|trans }}</a>
             <a href="{{ url('partner') }}">{{ 'nav.partner'|trans }}</a>
             <span class="langselect">
-                <a href="">HU</a>
-                <a href="">EN</a>
+                <a href="{{ path(app.request.attributes.get('_route'), {_locale: 'hu'}) }}">HU</a>
+                <a href="{{ path(app.request.attributes.get('_route'), {_locale: 'en'}) }}">EN</a>
             </span>
         </nav>
         <span id="menu-button"></span>
@@ -21,8 +21,8 @@
     <nav class="mobile-nav">
         <div class="mobilemenu">
             <span class="langselect">
-                <a href="">HU</a>
-                <a href="">EN</a>
+                <a href="{{ path(app.request.attributes.get('_route'), {_locale: 'hu'}) }}">HU</a>
+                <a href="{{ path(app.request.attributes.get('_route'), {_locale: 'en'}) }}">EN</a>
             </span>
             <a href="{{ url('materials') }}">{{ 'nav.materials'|trans }}</a>
             <a href="{{ url('food') }}">{{ 'nav.food'|trans }}</a>

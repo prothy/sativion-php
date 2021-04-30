@@ -90,5 +90,6 @@ input[type = "submit"]:active {
   .gmaps-frame {
     margin-top: 2rem!important;
     height: 10rem;
+    width: 100%;
   }
 }

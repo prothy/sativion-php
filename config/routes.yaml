@@ -1,5 +1,5 @@
 #index:
-#    resource: "../src/Controller/Router.php"
+#    resource: "../src/Controller/ContactController.php"
 #    prefix:   /
 #    type:     annotation
 
@@ -44,9 +44,7 @@ health:
 
 contact:
     path:   /{_locale}/contact
-    controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
-    defaults:
-        template: 'contact.html.twig'
+    controller: App\Controller\ContactController::contact
     requirements:
         _locale: hu|en
 
