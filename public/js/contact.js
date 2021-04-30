@@ -43,7 +43,7 @@ form.addEventListener('submit', (e) => {
                 message.value = "";
             } else {
                 info.classList.add('fail');
-                info.innerHTML = formContent.failure;
+                info.innerHTML = formContent.fail;
                 // alert("Something went wrong");
             }
         }

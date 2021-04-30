@@ -9,28 +9,34 @@
 
 {% block content %}
     <article class="food-art" lang="hu">
-        <h2>content.title</h2>
-        <p>content.text</p>
+        <h2>{{ 'contact.title'|trans }}</h2>
+        <p>{{ 'contact.text'|trans }}</p>
         <div>
             <form class="contact-form" method="post" action="">
-                <label for="name">form.name *</label>
+                <label for="name">{{ 'form.name'|trans }} *</label>
                 <input type="text" name="name" id="name">
 
-                <label for="email">form.email *</label>
+                <label for="email">{{ 'form.email'|trans }} *</label>
                 <input type="email" name="email" id="email">
 
-                <label for="message">form.message *</label>
+                <label for="message">{{ 'form.message'|trans }} *</label>
                 <textarea name="message" id="message"></textarea>
 
-                <input type="submit" id="formsubmit" value="form.send">
+                <input type="submit" id="formsubmit" value="{{ 'form.send'|trans }}">
 
                 <span class="msginfo">Not sent.</span>
             </form>
             <iframe class="gmaps-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.0157163966137!2d19.03881371562508!3d47.45063307917461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dd9cb0012633%3A0xeb447920b2ec436!2sBudapest%2C%20Kondorosi%20%C3%BAt%208%2C%201116!5e0!3m2!1sen!2shu!4v1614351064908!5m2!1sen!2shu"></iframe>
         </div>
         <script>
-            //const formContent =
-            //const startTime = Date.now()
+            const formContent = {
+                'info': {{ 'form.info'|trans }},
+                'success': {{ 'form.success'|trans }},
+                'fail': {{ 'form.fail'|trans }},
+                'obligatory': {{ 'form.obligatory'|trans }},
+                'toosoon': {{ 'form.toosoon'|trans }}
+            }
+            const startTime = Date.now()
         </script>
         <script src="{{ asset('js/contact.js') }}"></script>
     </article>
