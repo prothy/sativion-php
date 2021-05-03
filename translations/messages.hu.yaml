@@ -15,7 +15,7 @@ form:
   success: "Üzenet küldése sikeres!"
   fail: "Üzenet küldése sikertelen. Kérjük próbáld újra."
   obligatory: "Kérjük tölts ki minden kötelező mezőt!"
-  toosoon: "You're doing that too soon."
+  toosoon: "You are doing that too soon."
 home:
   banner1: "A kender ipari felhasználásának módja szinte határtalan."
   banner2: "Fedezd fel nálunk\na benne rejlő lehetőségeket!"
@@ -33,6 +33,30 @@ home:
     partner:
       title: "Legyél a partnerünk"
       desc: "Beszállítókat és forgalmazókat is keresünk."
+food:
+  title: "Élelmiszer"
+  text: "A kender felhasználásával készült élelmiszerek táp és biológiai értéke rendkívül magas. Köszönhető mindez többszörösen telítetlen zsírsavtartalmuknak, különös tekintettel az omega 6 és omega 3 zsírsavak tökéletes arányára (3:1). Emellett mind a 9 esszenciális aminósav jelenléte is az egészséges étrend elengedhetetlen részéve teszi a kenderből készült élelmiszereket."
+health:
+  title: "Egészség"
+  text: "A kenderben előforduló több száz kannabionid közül a legismertebb a THC, CBD, CBG és CBC. Az utóbbi három vegyület a THC-val ellentétben nem pszichoaktív, azonban más, jótékony hatásukat az emberi szervezetre számtalan kutatás igazolta. A kannabisz számos kórkép esetén segíthet,- így például az epilepszia tüneteinek a mérséklésében, a mentális zavarok enyhítésében, az Alzheimer-kór, az asztma, a rákos megbetegedések kezelésében, illetve a menstruációs fájdalmak oldásában."
+  source: "Forrás: Williamson, E.M., Evans, F.J. Cannabinoids in Clinical Practice. Drugs 60, 1303–1314 (2000); Cannabinoids as anticancer therapeutic agents<br>Olga Kovalchuk & Igor Kovalchuk<br>Pages 961-989 | Published online: 05 Apr 2020"
+materials:
+  title: "Alapanyagok"
+  text: "Mindig magas minőségű, BIO alapanyagok és késztermékek találhatóak meg kínálatunkban, hazai és EU-s beszállítói hálózatunknak köszönhetően."
+  products:
+    hempseed:
+      title: "Kendermag"
+    unhulled:
+      title: "Hántolt kendermag"
+    protein:
+      title: "Kenderfehérje"
+    flour:
+      title: "Kenderliszt"
+    oil:
+      title: "Kendermagolaj"
 contact:
   title: "Lépj velünk kapcsolatba!"
   text: "Kérdésed, észrevételed van? Keress minket bizalommal!"
+partner:
+  title: "Legyél a partnerünk!"
+  text: "Termeled, vagy gyártod az általunk forgalmazott alapanyagokat? Szívesen forgalmaznád valamelyik termékünket? Ne habozz, lépj velünk kapcsolatba és dolgozzunk együtt!"
