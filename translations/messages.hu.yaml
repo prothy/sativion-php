@@ -1,4 +1,5 @@
 nav:
+  about: "Rólunk"
   materials: "Alapanyagok"
   food: "Élelmiszer"
   health: "Egészség"
@@ -33,6 +34,19 @@ home:
     partner:
       title: "Legyél a partnerünk"
       desc: "Beszállítókat és forgalmazókat is keresünk."
+about:
+  title: "Rólunk"
+  text: "Az innovatív, újfajta, egészséges alapanyagokkal való foglalkozást 2008-ban indult családi vállalkozásunkban kezdtük. Az elmúlt 13 év alatt gyűjtött tapasztalattal felvértezve érkeztünk el a Sativion Kft. megalapításához, melynek fő fókusza a kender élelmiszeripari és egészséges életmódhoz köthető felhasználása.\n\nA Sativion Kft. tevékenysége az alapanyag értékesítéstől egészen a késztermék előállításig terjed.\n\nA beszállítóink kiválasztása során kiemelt figyelmet fordítunk a megbízhatóságra. Termelőink egytől-egyig gondos gazdák, akik kizárólag az Európai Unió által akkreditált fajtákat tartalmazó listán szereplő vetőmagokból termelt alapanyagokat állítanak elő.\n\nAz így elkészült termékek minden esetben bevizsgálásokon esnek keresztül. Választékunkban egyaránt megtalálhatóak konvencionális, illetve BIO gazdálkodásból származó alapanyagok és késztermékek."
+  values: "Értékeink"
+  products:
+    - title: "Fenntarthatóság."
+      desc: "Teszünk érte, mert rajtunk is múlik. A szinte megszámlálhatatlan termék alapjául szolgáló ipari kender termesztése fenntartható, mivel növekedése során rengeteg CO2-t nyel el, továbbá szinte minden része felhasználható. Ezt figyelembe véve választottuk tevékenységünk központi alapanyagának a kendert."
+    - title: "Ügyfélközpontúság."
+      desc: "Kiemelkedő figyelmet fordítunk arra, hogy beszállítóink és vásárlóink igényeinek mind szakmai, mind emberi szempontból megfeleljünk. Minden partnerünkkel hosszútávú együttműködésben vagyunk érdekeltek és hiszünk a tudásmegosztás fontosságában. Befejezzük azt, amit elkezdtünk, vállaljuk azt, amire szerződtünk."
+    - title: "Fejlődés."
+      desc: "Nem elég csak kampányszerűen tenni érte, haladni kell tovább a kijelölt utunkon, hogy a fejlődés egy folyamattá váljon. Fejlődünk, ezáltal jobb minőségben tudjuk kiszolgálni vállalati és magánszemély ügyfeleinket. Ez indukálja partnereink, beszállítóink fejlődését is, hiszen csak így, együtt lehetünk sikeresek."
+    - title: "Bátorság."
+      desc: "A kenderrel kapcsolatos negatív képzettársítások megváltoztatásáért küzdünk. Kiállunk ezért a nagyszerű növényért, mert tudjuk, hogy ezzel jót teszünk az embereknek és a környezetnek is. Merészek vagyunk új termékek kifejlesztésében/megalkotásában és ezt a személetet szeretnénk partnereink és vevőink számára is átadni."
 food:
   title: "Élelmiszer"
   text: "A kender felhasználásával készült élelmiszerek táp és biológiai értéke rendkívül magas. Köszönhető mindez többszörösen telítetlen zsírsavtartalmuknak, különös tekintettel az omega 6 és omega 3 zsírsavak tökéletes arányára (3:1). Emellett mind a 9 esszenciális aminósav jelenléte is az egészséges étrend elengedhetetlen részéve teszi a kenderből készült élelmiszereket."
@@ -44,16 +58,16 @@ materials:
   title: "Alapanyagok"
   text: "Mindig magas minőségű, BIO alapanyagok és késztermékek találhatóak meg kínálatunkban, hazai és EU-s beszállítói hálózatunknak köszönhetően."
   products:
-    hempseed:
-      title: "Kendermag"
-    unhulled:
-      title: "Hántolt kendermag"
-    protein:
-      title: "Kenderfehérje"
-    flour:
-      title: "Kenderliszt"
-    oil:
-      title: "Kendermagolaj"
+    - title: "Kendermag"
+      img: "magok.png"
+    - title: "Hántolt kendermag"
+      img: "hantolt.png"
+    - title: "Kenderfehérje"
+      img: "protein.png"
+    - title: "Kenderliszt"
+      img: "liszt.png"
+    - title: "Kendermagolaj"
+      img: "olaj.png"
 contact:
   title: "Lépj velünk kapcsolatba!"
   text: "Kérdésed, észrevételed van? Keress minket bizalommal!"

@@ -43,6 +43,8 @@ article.home-art {
 
 .banner.mask {
   background: #ece4df;
+  -webkit-mask-image: url("/assets/home/magok_mask.png");
+  -webkit-mask-size: cover;
   mask-image: url("/assets/home/magok_mask.png");
   mask-size: cover;
   height: calc(20em + var(--banner-height));

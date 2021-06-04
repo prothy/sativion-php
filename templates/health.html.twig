@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block head %}
+    <head>
+        <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
+        <title>Sativion - {{ 'health.title'|trans }}</title>
+    </head>
+{% endblock %}
+
+{% block content %}
+    <article class="food-art" lang="hu">
+        <h2>{{ 'health.title'|trans }}</h2>
+        <p>{{ 'health.text'|trans }}</p>
+        <cite>{{ 'health.source'|trans }}</cite>
+        <div class="food-art product-list">
+            <span>
+                <h4>{{ 'global.empty'|trans }}</h4>
+            </span>
+        </div>
+    </article>
+{% endblock %}

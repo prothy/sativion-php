@@ -1,0 +1,38 @@
+{% extends 'base.html.twig' %}
+
+{% block head %}
+    <head>
+        <link rel="stylesheet" href="{{ asset('css/materials.css') }}">
+        <title>Sativion - {{ 'materials.title'|trans }}</title>
+    </head>
+{% endblock %}
+
+{% block content %}
+    <article class="alap" lang="hu">
+        <h2>{{ 'materials.title'|trans }}</h2>
+        <p>{{ 'materials.text'|trans }}</p>
+        {% set len = '' %}
+        <div class="alap product-list">
+            <span>
+                <img src='{{ asset('assets/materials/magok.png') }}' alt="{{ 'materials.products.1.title'|trans }}">
+                <h4>{{ 'materials.products.0.title'|trans }}</h4>
+            </span>
+            <span>
+                <img src='{{ asset('assets/materials/hantolt.png') }}' alt="{{ 'materials.products.2.title'|trans }}">
+                <h4>{{ 'materials.products.1.title'|trans }}</h4>
+            </span>
+            <span>
+                <img src='{{ asset('assets/materials/protein.png') }}' alt="{{ 'materials.products.3.title'|trans }}">
+                <h4>{{ 'materials.products.2.title'|trans }}</h4>
+            </span>
+            <span>
+                <img src='{{ asset('assets/materials/liszt.png') }}' alt="{{ 'materials.products.4.title'|trans }}">
+                <h4>{{ 'materials.products.3.title'|trans }}</h4>
+            </span>
+            <span>
+                <img src='{{ asset('assets/materials/olaj.png') }}' alt="{{ 'materials.products.5.title'|trans }}">
+                <h4>{{ 'materials.products.4.title'|trans }}</h4>
+            </span>
+        </div>
+    </article>
+{% endblock %}

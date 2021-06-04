@@ -1,0 +1,76 @@
+nav:
+  about: "About us"
+  materials: "Raw materials"
+  food: "Food"
+  health: "Health"
+  contact: "Contact us"
+  partner: "Become our partner"
+global:
+  empty: "The product list is under upload. Please check back later."
+form:
+  name: "Name"
+  email: "E-mail address"
+  message: "Message"
+  send: "Send"
+  info: "Sending..."
+  success: "Your message has been sent."
+  fail: "The message could not send. Please try again."
+  obligatory: "Please fill in all fields!"
+  toosoon: "You are doing that too soon."
+home:
+  banner1: "The industrial use of hemp is almost limitless."
+  banner2: "Discover with us\nits potential!"
+  motivation: "We believe that hemp contributes to a more sustainable future and a better life through its wide range of usability.\n\nSee what Sativion has to offer its partners to benefit from this:"
+  products:
+    raw:
+      title: "Raw materials"
+      desc: "Trade in high quality raw materials for food and extraction."
+    food:
+      title: "Food"
+      desc: "Production and distribution of hemp-based foods."
+    health:
+      title: "Health"
+      desc: "Domestic and exclusive foreign distribution of medicinal products."
+    partner:
+      title: "Become our partner"
+      desc: "We are looking for suppliers and distributors as well."
+about:
+  title: "About us"
+  text: "We have been dealing with innovative, healthy ingredients within our family business since 2008. Armed with the experience gained during the last 13 years, we have now established Sativion Kft. The main focus of our company is the use of hemp as a food ingredient and as a raw material for the health industry.\n\nThe activity of Sativion Kft. ranges from the sale of raw materials to the production of the finished product.\n\nWhen selecting our suppliers, we pay special attention to reliability. All of our producers are well-regarded farmers who produce raw materials exclusively from seeds that are in accordance with the Common Catalog of Varieties of agricultural species according to the applicable EU regulation.\n\nWe conduct various analyses on the products we provide. Our selection includes both conventional and BIO raw materials and finished products."
+  values: "Our values"
+  products:
+    - title: "Sustainability"
+      desc: "We care, because it affects all of us. The cultivation of industrial hemp, which is the basis of a countless number of products is sustainable, because it absorbs a lot of CO2 as it grows, and almost the whole plant can be used. With this in mind, we have chosen hemp as the central raw material for our business."
+    - title: "Customer focus"
+      desc: "We pay special attention to meet the needs of our suppliers and customers, both professionally and humanly. We are interested in long-term cooperation with all our partners and we believe in the importance of sharing our knowledge. We always finish what we started, and we always fulfill our contractual obligations."
+    - title: "Development"
+      desc: "It is not enough to just campaign for it, we need to move forward on our designated path to make development a process. We are constantly evolving, so we can better serve our corporate and private customers. This also induces the development of our partners and suppliers, as this is the only way we can all be successful."
+    - title: "Courage"
+      desc: "We are fighting to change the negative associations regarding hemp. We stand for this great plant because we know we are doing something good for people and for the environment. We are bold in developing and creating new products and we want to pass this attitude on to our partners and customers."
+food:
+  title: "Food"
+  text: "The nutritional and biological value of foods made from hemp is extremely high. This is due to their polyunsaturated fatty acid content, especially the perfect ratio of omega 6 to omega 3 fatty acids (3: 1). In addition, the presence of all 9 essential amino acids makes hemp foods an essential part of a healthy diet."
+health:
+  title: "Health"
+  text: "The best known of the hundreds of cannabionides found in hemp are THC, CBD, CBG, and CBC. The latter three compounds, unlike THC, are not psychoactive, however, their other beneficial effects on the human body have been proven by numerous studies. Cannabis can help with many conditions, such as reducing the symptoms of epilepsy, alleviating mental disorders, treating Alzheimer's disease, asthma, cancer, and relieving menstrual cramps."
+  source: "Source: Williamson, E.M., Evans, F.J. Cannabinoids in Clinical Practice. Drugs 60, 1303–1314 (2000); Cannabinoids as anticancer therapeutic agents\nOlga Kovalchuk & Igor Kovalchuk\nPages 961-989 | Published online: 05 Apr 2020"
+materials:
+  title: "Raw materials"
+  text: "We always offer high quality BIO raw materials and finished products, thanks to our domestic and EU supplier network."
+  products:
+    - title: "Whole hemp seed"
+      img: "magok.png"
+    - title: "Hemp heart"
+      img: "hantolt.png"
+    - title: "Hemp protein"
+      img: "protein.png"
+    - title: "Hemp flour"
+      img: "liszt.png"
+    - title: "Hemp seed oil"
+      img: "olaj.png"
+contact:
+  title: "Contact us!"
+  text: "Do you have any questions or comments? Please feel free to reach us!"
+partner:
+  title: "Become our partner"
+  text: "Do you produce or manufacture the raw materials we sell? Would you like to distribute one of our products? Do not hesitate to contact us! We are always ready for a new project with you."

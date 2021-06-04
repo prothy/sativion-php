@@ -1,0 +1,33 @@
+{% extends 'base.html.twig' %}
+
+{% block head %}
+    <head>
+        <title>Sativion - {{ 'about.title'|trans }}</title>
+    </head>
+{% endblock %}
+
+{% block content %}
+    <article class="food-art">
+        <h2>{{ 'about.title'|trans }}</h2>
+        <p>{{ 'about.text'|trans|nl2br }}</p>
+        <div class="food-art product-list">
+            <h3>{{ 'about.values'|trans }}</h3>
+            <span>
+                <h4>{{ 'about.products.0.title'|trans }}</h4>
+                <p>{{ 'about.products.0.desc'|trans }}</p>
+            </span>
+            <span>
+                <h4>{{ 'about.products.1.title'|trans }}</h4>
+                <p>{{ 'about.products.1.desc'|trans }}</p>
+            </span>
+            <span>
+                <h4>{{ 'about.products.2.title'|trans }}</h4>
+                <p>{{ 'about.products.2.desc'|trans }}</p>
+            </span>
+            <span>
+                <h4>{{ 'about.products.3.title'|trans }}</h4>
+                <p>{{ 'about.products.3.desc'|trans }}</p>
+            </span>
+        </div>
+    </article>
+{% endblock %}

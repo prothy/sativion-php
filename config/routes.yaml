@@ -18,6 +18,14 @@ home:
     requirements:
         _locale: hu|en
 
+about:
+    path:   /{_locale}/about
+    controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
+    defaults:
+        template: 'about.html.twig'
+    requirements:
+        _locale: hu|en
+
 materials:
     path:   /{_locale}/materials
     controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
@@ -50,8 +58,6 @@ contact:
 
 partner:
     path:   /{_locale}/partner
-    controller: Symfony\Bundle\FrameworkBundle\Controller\TemplateController
-    defaults:
-        template: 'partner.html.twig'
+    controller: App\Controller\ContactController::partner
     requirements:
         _locale: hu|en

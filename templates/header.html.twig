@@ -6,6 +6,7 @@
             </a>
         </h1>
         <nav class="desktop-nav">
+            <a href="{{ url('about') }}">{{ 'nav.about'|trans }}</a>
             <a href="{{ url('materials') }}">{{ 'nav.materials'|trans }}</a>
             <a href="{{ url('food') }}">{{ 'nav.food'|trans }}</a>
             <a href="{{ url('health') }}">{{ 'nav.health'|trans }}</a>
@@ -24,6 +25,7 @@
                 <a href="{{ path(app.request.attributes.get('_route'), {_locale: 'hu'}) }}">HU</a>
                 <a href="{{ path(app.request.attributes.get('_route'), {_locale: 'en'}) }}">EN</a>
             </span>
+            <a href="{{ url('about') }}">{{ 'nav.about'|trans }}</a>
             <a href="{{ url('materials') }}">{{ 'nav.materials'|trans }}</a>
             <a href="{{ url('food') }}">{{ 'nav.food'|trans }}</a>
             <a href="{{ url('health') }}">{{ 'nav.health'|trans }}</a>

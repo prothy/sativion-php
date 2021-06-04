@@ -1,0 +1,44 @@
+{% extends 'base.html.twig' %}
+
+{% block head %}
+    <head>
+        <link rel="stylesheet" href="{{ asset('css/contact.css') }}">
+        <title>Sativion - {{ 'partner.title'|trans }}</title>
+        <script>
+            const timer = Date.now();
+
+            function formValidate() {
+                if (Date.now() - timer < 8000) {
+                    document.getElementById('toosoon').innerText = '{{ 'form.toosoon'|trans }}';
+                    document.getElementById('toosoon').style.display = 'inline-block';
+                    return false;
+                } else return [...document.querySelectorAll('input')].filter((e) => e.value).length !== 0;
+            }
+        </script>
+    </head>
+{% endblock %}
+
+{% block content %}
+    <article class="food-art" lang="hu">
+        <h2>{{ 'partner.title'|trans }}</h2>
+        <p>{{ 'partner.text'|trans }}</p>
+        <div>
+            {{ form_start(contact_form) }}
+            {{ form_widget(contact_form) }}
+            <input type="submit" id="formsubmit" value="{{ 'form.send'|trans }}">
+            <span id="toosoon" class="msginfo fail"></span>
+            {% for message in app.flashes('fail') %}
+                <span class="msginfo fail">
+                    {{ message }}
+                </span>
+            {% endfor %}
+            {% for message in app.flashes('sent') %}
+                <span class="msginfo success">
+                    {{ message }}
+                </span>
+            {% endfor %}
+            {{ form_end(contact_form) }}
+            <iframe class="gmaps-frame" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2698.0157163966137!2d19.03881371562508!3d47.45063307917461!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dd9cb0012633%3A0xeb447920b2ec436!2sBudapest%2C%20Kondorosi%20%C3%BAt%208%2C%201116!5e0!3m2!1sen!2shu!4v1614351064908!5m2!1sen!2shu"></iframe>
+        </div>
+    </article>
+{% endblock %}
